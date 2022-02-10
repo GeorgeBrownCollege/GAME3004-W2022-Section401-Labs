@@ -125,7 +125,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 300}
   m_MaxSize: {x: 24288, y: 24288}
   vertical: 0
-  controlID: 17
+  controlID: 86
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -201,7 +201,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 300}
   m_MaxSize: {x: 8096, y: 24288}
   vertical: 1
-  controlID: 28
+  controlID: 59
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -221,8 +221,8 @@ MonoBehaviour:
     y: 0
     width: 359
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -248,8 +248,8 @@ MonoBehaviour:
     y: 0
     width: 405
     height: 417
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -522,22 +522,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials
+    - Assets/[Scripts]
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Materials
+  - Assets/[Scripts]
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\tsili\OneDrive\Desktop\GBC\GAME3004\Section401\GAME3004-W2022-Lab3
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 905c0000
-    m_LastClickedID: 23696
-    m_ExpandedIDs: 00000000645c000000ca9a3b
+    m_SelectedIDs: f45c0000
+    m_LastClickedID: 23796
+    m_ExpandedIDs: 00000000d05c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -565,7 +565,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000645c0000
+    m_ExpandedIDs: 00000000d05c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -940,9 +940,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -6.9689736, y: 1.7577844, z: -0.61352515}
+    m_Target: {x: -2.6726942, y: 1.2185843, z: -1.7692055}
     speed: 2
-    m_Value: {x: -6.9689736, y: 1.7577844, z: -0.61352515}
+    m_Value: {x: -2.6726942, y: 1.2185843, z: -1.7692055}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -989,13 +989,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.094284505, y: -0.6933342, z: 0.092279315, w: -0.7084832}
+    m_Target: {x: -0.063396856, y: -0.7485507, z: 0.07230736, w: -0.65612864}
     speed: 2
-    m_Value: {x: -0.09441971, y: -0.6922479, z: 0.09213475, w: -0.70949906}
+    m_Value: {x: -0.06448836, y: -0.74742645, z: 0.07333058, w: -0.65712833}
   m_Size:
-    m_Target: 1.2247449
+    m_Target: 4.381391
     speed: 2
-    m_Value: 1.2247449
+    m_Value: 4.381391
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1052,9 +1052,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 62f9ffff
-      m_LastClickedID: -1694
-      m_ExpandedIDs: fab1ffff18b6ffff4af9ffff62f9ffff24fbffff
+      m_SelectedIDs: e0e2ffff
+      m_LastClickedID: -7456
+      m_ExpandedIDs: 0af9ffff24fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
