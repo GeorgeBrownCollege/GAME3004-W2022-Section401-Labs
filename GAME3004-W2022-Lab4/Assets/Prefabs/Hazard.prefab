@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7967398332732251453}
   m_Layer: 0
   m_Name: Hazard
-  m_TagString: Untagged
+  m_TagString: Hazard
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94,10 +94,35 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8276742794138259939, guid: 47fdfea8290e8ae4caf8cfb0331a3e91,
+        type: 3}
+      propertyPath: m_TagString
+      value: Hazard
+      objectReference: {fileID: 0}
+    - target: {fileID: -246185777977506604, guid: 47fdfea8290e8ae4caf8cfb0331a3e91,
+        type: 3}
+      propertyPath: m_TagString
+      value: Hazard
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 47fdfea8290e8ae4caf8cfb0331a3e91,
         type: 3}
       propertyPath: m_Name
       value: Hazard Model
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 47fdfea8290e8ae4caf8cfb0331a3e91,
+        type: 3}
+      propertyPath: m_TagString
+      value: Hazard
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737393990635659188, guid: 47fdfea8290e8ae4caf8cfb0331a3e91,
+        type: 3}
+      propertyPath: m_TagString
+      value: Hazard
+      objectReference: {fileID: 0}
+    - target: {fileID: 5792651472278237529, guid: 47fdfea8290e8ae4caf8cfb0331a3e91,
+        type: 3}
+      propertyPath: m_TagString
+      value: Hazard
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47fdfea8290e8ae4caf8cfb0331a3e91, type: 3}
