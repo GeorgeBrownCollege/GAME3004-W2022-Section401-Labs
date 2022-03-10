@@ -4507,6 +4507,11 @@ PrefabInstance:
       propertyPath: rightJoystick
       value: 
       objectReference: {fileID: 4119609803163556394}
+    - target: {fileID: 6339844126908097855, guid: 7eb791ae3ada37d40965184df220e7f5,
+        type: 3}
+      propertyPath: controlSensitivity
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6339844127794113862, guid: 7eb791ae3ada37d40965184df220e7f5,
         type: 3}
       propertyPath: m_Name
