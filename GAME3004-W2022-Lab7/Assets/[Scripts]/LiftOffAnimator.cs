@@ -6,29 +6,32 @@ using UnityEngine;
 public class LiftOffAnimator : MonoBehaviour
 {
     private Animator animator;
+    private EnemyController controller;
+    private Transform player;
 
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
+        controller = transform.parent.GetComponent<EnemyController>();
+        player = controller.player;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Alpha1))
+        if (Vector3.Distance(player.position, transform.position) < 2.1f)
         {
-            animator.SetInteger("AnimationState", 0); // idle test
-        }
+            // turn to face the player
+            Vector3 targetPosition = new Vector3(player.position.x, transform.position.y, player.position.z);
+            transform.LookAt(targetPosition);
 
-        if (Input.GetKeyDown(KeyCode.Alpha2))
-        {
-            animator.SetInteger("AnimationState", 1); // Walk test
+            // ...then punch
+            animator.SetInteger("AnimationState", 2); // punch if close
         }
-
-        if (Input.GetKeyDown(KeyCode.Alpha3))
+        else
         {
-            animator.SetInteger("AnimationState", 2); // Punch test
+            animator.SetInteger("AnimationState", 1); // walk if not close
         }
     }
 }
